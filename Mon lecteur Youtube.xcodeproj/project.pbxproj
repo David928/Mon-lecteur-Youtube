@@ -13,6 +13,7 @@
 		2BFEE933212F52BE00C141D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEE931212F52BE00C141D6 /* LaunchScreen.storyboard */; };
 		2BFEE93B212F585300C141D6 /* TableauController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE93A212F585300C141D6 /* TableauController.swift */; };
 		2BFEE93D212F5B6F00C141D6 /* Chanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE93C212F5B6F00C141D6 /* Chanson.swift */; };
+		2BFEE93F212F665400C141D6 /* ChansonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE93E212F665400C141D6 /* ChansonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2BFEE934212F52BE00C141D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BFEE93A212F585300C141D6 /* TableauController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableauController.swift; sourceTree = "<group>"; };
 		2BFEE93C212F5B6F00C141D6 /* Chanson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chanson.swift; sourceTree = "<group>"; };
+		2BFEE93E212F665400C141D6 /* ChansonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2BFEE934212F52BE00C141D6 /* Info.plist */,
 				2BFEE93A212F585300C141D6 /* TableauController.swift */,
 				2BFEE93C212F5B6F00C141D6 /* Chanson.swift */,
+				2BFEE93E212F665400C141D6 /* ChansonCell.swift */,
 			);
 			path = "Mon lecteur Youtube";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				2BFEE93B212F585300C141D6 /* TableauController.swift in Sources */,
 				2BFEE929212F52BD00C141D6 /* AppDelegate.swift in Sources */,
+				2BFEE93F212F665400C141D6 /* ChansonCell.swift in Sources */,
 				2BFEE93D212F5B6F00C141D6 /* Chanson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
