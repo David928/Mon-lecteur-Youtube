@@ -35,4 +35,21 @@ class ChansonCell: UITableViewCell {
         
     }
     
+    func telechargerImage() {
+        miniature.image = logo
+        
+        if let url = URL(string: self.chanson.miniatureUrl) {
+            let session = URLSession.shared
+            let task = session.dataTask(with: url, { (data, response, error) in
+                if let imageData = Data, let image = UIImage(data: imageData) {
+                    
+                }
+            })
+            task.resume()
+            
+        
+        }
+        
+    }
+    
 }
