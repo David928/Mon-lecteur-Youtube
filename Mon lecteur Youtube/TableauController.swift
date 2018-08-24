@@ -15,13 +15,14 @@ class TableauController: UIViewController, UITableViewDelegate, UITableViewDataS
     var chansons = [Chanson]()
     
     let identifiantCell = "ChansonCell"
+    let identifiantSegue = "VersVideo"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
         ajouterChanson()
-        title = " Mes vidéos préférées"
+        title = "Mes vidéos préférées"
 
     }
     
@@ -42,6 +43,19 @@ class TableauController: UIViewController, UITableViewDelegate, UITableViewDataS
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 130
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let chanson = chansons[indexPath.row]
+        performSegue(withIdentifier: identifiantSegue, sender: chanson)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == identifiantSegue {
+            if let nouveauController = segue.destination as? VideoController {
+                nouveauController.chanson = sender as? Chanson
+            }
+        }
+    }
+    
     
     func ajouterChanson() {
         chansons = [Chanson]()

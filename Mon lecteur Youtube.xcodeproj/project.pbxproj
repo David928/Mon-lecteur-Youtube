@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B07AE47213045280059FAC1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B07AE46213045280059FAC1 /* logo.png */; };
+		2B07AE4921304BA80059FAC1 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B07AE4821304BA80059FAC1 /* VideoController.swift */; };
 		2BFEE929212F52BD00C141D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFEE928212F52BD00C141D6 /* AppDelegate.swift */; };
 		2BFEE92E212F52BD00C141D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEE92C212F52BD00C141D6 /* Main.storyboard */; };
 		2BFEE930212F52BE00C141D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEE92F212F52BE00C141D6 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2B07AE46213045280059FAC1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
+		2B07AE4821304BA80059FAC1 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		2BFEE925212F52BD00C141D6 /* Mon lecteur Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mon lecteur Youtube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFEE928212F52BD00C141D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BFEE92D212F52BD00C141D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				2BFEE93A212F585300C141D6 /* TableauController.swift */,
 				2BFEE93C212F5B6F00C141D6 /* Chanson.swift */,
 				2BFEE93E212F665400C141D6 /* ChansonCell.swift */,
+				2B07AE4821304BA80059FAC1 /* VideoController.swift */,
 			);
 			path = "Mon lecteur Youtube";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B07AE4921304BA80059FAC1 /* VideoController.swift in Sources */,
 				2BFEE93B212F585300C141D6 /* TableauController.swift in Sources */,
 				2BFEE929212F52BD00C141D6 /* AppDelegate.swift in Sources */,
 				2BFEE93F212F665400C141D6 /* ChansonCell.swift in Sources */,
